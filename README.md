@@ -7,7 +7,7 @@ Install
 
 In your bundle directory, clone this repo:
 
-    % git clone https://github.com/Newlifer/morganey.vim.git
+    % git clone https://github.com/morganey-lang/morganey.vim.git
 
 Source your `.vimrc` or (re-)start Vim.
 
