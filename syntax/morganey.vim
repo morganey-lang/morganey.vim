@@ -28,6 +28,7 @@ syn match morganeyFuncDclr "\\"
 syn match morganeyAssign ":="
 
 syn region morganeyComment start="\/\*" end="\*\/"
+syn match morganeySingleLineComment +//.*$+
 
 hi link morganeyMainFunc Identifier
 hi link morganeyKeyword Identifier
@@ -36,4 +37,5 @@ hi link morganeyPreludeFunction Function
 hi link morganeyAssign Operator
 hi link morganeyPreludeBoolean Boolean
 hi link morganeyComment Comment
+hi link morganeySingleLineComment Comment
 
